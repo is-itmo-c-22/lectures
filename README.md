@@ -9,3 +9,6 @@
 [Презентация](22.09.12/Lecture%201.%20Types%20%26%20operators%20%26%20function.pdf)
 
 [Enum and conversion](22.09.12/code/main.cpp)
+
+## 22.09.19
+[Презентация](2.09.19/Lecture%202.%20Pointer%2C%20arrays%2C%20struct%20and%20union.pdf)

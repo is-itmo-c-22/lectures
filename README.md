@@ -11,4 +11,8 @@
 [Enum and conversion](22.09.12/code/main.cpp)
 
 ## 22.09.19
-[Презентация](2.09.19/Lecture%202.%20Pointer%2C%20arrays%2C%20struct%20and%20union.pdf)
+[Презентация](22.09.19/Lecture%202.%20Pointer%2C%20arrays%2C%20struct%20and%20union.pdf)
+
+## 22.09.26 - 22.10.03
+[Презентация](22.09.19/)
+

@@ -18,5 +18,6 @@
 
 ## 22.10.10 - 22.10.17
 [Презентация](22.10.10/Lecture%204.%20C%20Standard%20Library.pdf)
+
 [sort](22.10.10/code/main.cpp)
 

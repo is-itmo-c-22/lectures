@@ -26,3 +26,14 @@
 
 [Reference](22.10.24/code/main.cpp)
 
+# Лабораторные работы
+[Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
+
+## Осенний Семестр
+
+1. [WordCount](https://classroom.github.com/a/Tclzc3ig)
+2. [uint2022_t](https://classroom.github.com/a/R3avdLC_)
+3. [Модель песчаной кучи](https://classroom.github.com/a/RV4yfJLS)
+4. [Архиватор устойчивый к помехам](https://classroom.github.com/a/5h4yDfeV)
+5. Comming soon
+6. Comming soon

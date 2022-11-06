@@ -21,3 +21,9 @@
 
 [sort](22.10.10/code/main.cpp)
 
+
+## 22.10.24 - 22.10.31
+[Презентация](22.10.24/Lecture%205.%20Reference%2C%20initialization%2C%20function%2C%20namespace.pdf)
+
+[Reference](22.10.24/code/main.cpp)
+

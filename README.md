@@ -26,6 +26,11 @@
 
 [Reference](22.10.24/code/main.cpp)
 
+## 22.11.07 - 22.11.14
+[Preprocessor, Compiler and Linker](Lecture%206.%20Compiler%20and%20preprocessor.pdf)
+
+[Storage Duration ang Linkage](22.11.07/code/main.cpp)
+
 # Лабораторные работы
 [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
 

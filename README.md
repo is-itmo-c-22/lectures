@@ -35,5 +35,5 @@
 2. [uint2022_t](https://classroom.github.com/a/R3avdLC_)
 3. [Модель песчаной кучи](https://classroom.github.com/a/RV4yfJLS)
 4. [Архиватор устойчивый к помехам](https://classroom.github.com/a/5h4yDfeV)
-5. Comming soon
+5. [Парсер аргументов командной строки](https://classroom.github.com/a/9r15MXYg)
 6. Comming soon

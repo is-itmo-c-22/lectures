@@ -31,6 +31,11 @@
 
 [Storage Duration and Linkage](22.11.07/code/main.cpp)
 
+## 22.11.21
+[OOP - 1](22.11.21/Lecture%207.%20C%2B%2B.%20ООП.%20Абстракция.%20Инкапсуляция.pdf)
+
+[classes](22.11.21/code/main.cpp)
+
 # Лабораторные работы
 [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
 

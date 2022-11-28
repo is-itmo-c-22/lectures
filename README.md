@@ -46,4 +46,4 @@
 3. [Модель песчаной кучи](https://classroom.github.com/a/RV4yfJLS)
 4. [Архиватор устойчивый к помехам](https://classroom.github.com/a/5h4yDfeV)
 5. [Парсер аргументов командной строки](https://classroom.github.com/a/9r15MXYg)
-6. Comming soon
+6. [OneMoreFunnyLanguage parser](https://classroom.github.com/a/LBjOBORb)

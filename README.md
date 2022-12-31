@@ -47,3 +47,5 @@
 4. [Архиватор устойчивый к помехам](https://classroom.github.com/a/5h4yDfeV)
 5. [Парсер аргументов командной строки](https://classroom.github.com/a/9r15MXYg)
 6. [OneMoreFunnyLanguage parser](https://classroom.github.com/a/LBjOBORb)
+
+[Дифзачет](https://github.com/is-itmo-c-22/lectures/blob/f5281bb82eac3234df00c12f7c7dfcdea2dd9677/Exam%20I.md)

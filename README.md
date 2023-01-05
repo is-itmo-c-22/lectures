@@ -39,7 +39,7 @@
 ## 22.11.28 - 22.12.05
 [Operator Overloading](22.12.05/Lecture%208.%20Operator%20overloading.pdf)
 
-[code](22.12.05/code/main.cpp)
+[code](22.12.05/main.cpp)
 
 
 

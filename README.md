@@ -41,7 +41,9 @@
 
 [code](22.12.05/main.cpp)
 
-
+## 23.02.06 - 23.02.13
+[OOP - 2](3.02.06/Lecture%209%20%20C%2B%2B.%20%D0%9E%D0%9E%D0%9F.%20%D0%9D%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5.%20%D0%9F%D0%BE%D0%BB%D0%B8%D0%BC%D0%BE%D1%80%D1%84%D0%B8%D0%B7%D0%BC..pdf)
+[code](23.02.06/main.cpp)
 
 # Лабораторные работы
 [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)

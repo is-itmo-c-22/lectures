@@ -3,8 +3,11 @@
 
 #include <iostream>
 
+#include <map>
+#include <variant>
 
 //1 полупоток
+
 class CPerson {
 public:
     CPerson(const std::string& name, int year)
@@ -178,12 +181,18 @@ public:
 
 class CLogger {
 public:
-     virtual void Log(const std::string& msg) {}
-
+     virtual void Log(const std::string& msg) = 0;
      virtual ~CLogger() = default;
+     void f() {
+        ff();
+     }
+private:
+    void ff() {
+
+    }
 };
 
-class CConsoleLogger : public CLogger { 
+class CConsoleLogger : public CLogger {
 public:
     void Log(const std::string& msg) {
         std::cout << "[Log] " << msg;
@@ -215,16 +224,112 @@ void func(CLogger& log) {
 }
 
 
+class Base {
+public:
+    Base () {
+        std::cout << "Base\n";
+    }
+
+    virtual ~Base ()  = default;
 
 
+    virtual void func(int32_t i) {
+        std::cout << "AAAAA\n";
+    }
+
+
+    virtual void print(std::ostream& stream) const {
+        stream << "print Base\n";
+    }
+};
+
+
+std::ostream& operator<<(std::ostream& stream, const Base& b) {
+    b.print(stream);
+    return stream;
+}
+
+
+class Foo {
+    int* ptr;
+public:
+    Foo() : ptr (new int(10)) {
+        std::cout << "Foo\n";
+    }
+
+    ~Foo() {
+        delete ptr;
+        std::cout << "~Foo\n";
+    }
+};
+
+class Derived : public Base {
+    Foo i;
+public:
+    void func(int32_t i) override {
+        std::cout << "BBBBB\n";
+    }
+
+    Derived() {
+        std::cout << "Derived\n";
+    }
+
+    ~Derived() {
+        std::cout << "~Derived\n";
+    }
+    void print(std::ostream& stream) const  override {
+        stream << "print Derived\n";
+    }
+};
+
+std::ostream& operator<<(std::ostream& stream, const Derived& b) {
+    stream << "print Derived\n";
+    return stream;
+}
+
+class Derived2 : public Derived {
+public:
+    void func(int32_t i) override {
+        std::cout << "CCCC\n";
+    }
+
+    Derived2() {
+        std::cout << "Derived2\n";
+    }
+
+    ~Derived2() {
+        std::cout << "~Derived2\n";
+    }
+};
+
+
+#include <vector>
 
 int main(int, char**) {
-    std::cout << sizeof(CLogger) << std::endl;
-    std::cout << sizeof(CConsoleLogger) << std::endl;
-    std::cout << sizeof(CFileLogger) << std::endl;
 
-    CConsoleLogger logger;
-    func(logger);
+    Base* b = new Derived();
+
+    std::cout << *b;
+    delete b;
+
+    // std::vector<Base*>  objts;
+
+    // objts.push_back(new Derived2());
+    // objts.push_back(new Derived());
+    // objts.push_back(new Derived2());
+
+    // for(auto o : objts)
+    //     o->func(10);
+
+    // for(auto o : objts)
+    //     delete o;
+
+    // std::cout << sizeof(CLogger) << std::endl;
+    // std::cout << sizeof(CConsoleLogger) << std::endl;
+    // std::cout << sizeof(CFileLogger) << std::endl;
+
+    // CConsoleLogger logger;
+    // func(logger);
 
     //BudgetStudent p{"Ivan Ivanov", 2004, "ITMO", 15000};
     // std::cout << sizeof(CPerson) << std::endl;
@@ -251,7 +356,8 @@ int main(int, char**) {
 
 
 
-// 2 поток
+
+//2 поток
 // class CPerson {
 // public:
 //     CPerson(const std::string& name, int year)
@@ -415,12 +521,16 @@ int main(int, char**) {
 
 // class CLogger {
 // public:
-//     virtual void Log(const char* message) {}
+//     virtual void Log(const char* message) = 0;
+//     void f() {
+
+//     }
+//     virtual ~CLogger() = default;
 // };
 
 // class CConsoleLogger : public CLogger {
 // public:
-//     void Log(const char* message) {
+//     void Log(const char* message) override {
 //         std::cout << "[Log]: " << message;
 //     }
 // };
@@ -451,16 +561,92 @@ int main(int, char**) {
 // }
 
 
+// class Base  {
+// public:
+
+//     Base() {
+//         std::cout << "Base\n";
+//     }
+
+//     virtual ~Base() {
+//         std::cout << "~Base\n";
+//     }
+
+//     virtual void func() {
+//         std::cout << "A\n";
+//     }
+//     friend std::ostream& operator<<(std::ostream& stream, const Base& b) ;
+// protected:
+//     virtual std::string printImpl() const {
+//         return  "I'am Base\n";
+//     }
+// };
+
+// std::ostream& operator<<(std::ostream& stream, const Base& b) {
+//     stream << b.printImpl();
+//     return stream;
+// }
+
+// class Derrived : public Base {
+// public:
+//     Derrived() {
+//         std::cout << "Derrived\n";
+//     }
+
+//     ~Derrived() {
+//         std::cout << "~Derrived\n";
+//     }
+
+//     void func() override {
+//         std::cout << "B\n";
+//     }
+
+// protected:
+//     std::string printImpl() const override {
+//         return "I'am Derrived\n";
+//     }
+// };
+
+
+
+// class Derrived2 : public Base {
+// public:
+//     Derrived2() {
+//         std::cout << "Derrived\n";
+//     }
+
+//     ~Derrived2() {
+//         std::cout << "~Derrived\n";
+//     }
+
+//     void func() override {
+//         std::cout << "C\n";
+//     }
+// };
+
+
+// #include <vector>
 
 // int main(int, char**) {
 
-//     std::cout << sizeof(CLogger) << std::endl;
-//     std::cout << sizeof(CConsoleLogger) << std::endl;
-//     std::cout << sizeof(CFileLogger) << std::endl;
+//     // std::cout << sizeof(CLogger) << std::endl;
+//     // std::cout << sizeof(CConsoleLogger) << std::endl;
+//     // std::cout << sizeof(CFileLogger) << std::endl;
+
+//     Base* d = new Derrived();
 
 
-//     CConsoleLogger log;
-//     func(log);
+//     int x  = 1;
+
+//     std::cout << *d;
+//     // // delete (Derrived*) d;
+//     delete d;
+
+//     // CLogger* log = new CConsoleLogger();
+//     // delete log;
+
+//     // CConsoleLogger log;
+//     // func(log);
 
 //     // // std::cout << "Hello new lection" << std::endl;
 //     // BudgetStudent p{"Ivan Ivanov", 2004, "ITMO", 2000};

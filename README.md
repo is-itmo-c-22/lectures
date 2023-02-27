@@ -62,3 +62,4 @@
 
 ## Весенний Семестр
 7. [Mp3 Meta Info Viewer](https://classroom.github.com/a/iEtWcl9p)
+8. [Circular buffer](https://classroom.github.com/a/10Iwbsex)

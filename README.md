@@ -46,6 +46,11 @@
 
 [code](23.02.06/code/main.cpp)
 
+## 23.02.20
+[Template - 1](23.02.20/Lecture%2010.%20Template.%20class%20and%20function%20-%20I%20.pdf)
+
+[code](23.02.20/code/main.cpp)
+
 # Лабораторные работы
 [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
 

@@ -77,3 +77,4 @@
 7. [Mp3 Meta Info Viewer](https://classroom.github.com/a/iEtWcl9p)
 8. [Circular buffer](https://classroom.github.com/a/10Iwbsex)
 9. [MemoryPoolsAllocator](https://classroom.github.com/a/uDvOorpJ)
+10. [Weather Forecast](https://classroom.github.com/a/hrWBnV8i)

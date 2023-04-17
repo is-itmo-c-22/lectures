@@ -78,3 +78,4 @@
 8. [Circular buffer](https://classroom.github.com/a/10Iwbsex)
 9. [MemoryPoolsAllocator](https://classroom.github.com/a/uDvOorpJ)
 10. [Weather Forecast](https://classroom.github.com/a/hrWBnV8i)
+11. [Xrange + Zip](https://classroom.github.com/a/Ozlv3CY2)

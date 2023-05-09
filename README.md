@@ -67,8 +67,12 @@
 ## 23.04.17 - 23.04.24
 [Cast, CRTP](23.04.17/Lecture%2014.%20%20Casts%2C%20CRTP%20.pdf)
 
-[code-1](23.04.17/code/main.cpp)
-[code-2](23.04.24/code/main.cpp)
+[code](23.04.17/code/main.cpp)
+
+## 23.04.25
+[Template-2](23.04.24/Lecture%2016.%20%20Template%20%2D%202.pdf)
+
+[code](23.04.24/code/main.cpp)
 
 # Лабораторные работы
 [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)

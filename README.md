@@ -59,6 +59,17 @@
 
 [code](23.03.13/code/main.cpp)
 
+## 23.04.03 - 23.04.10 
+[Exception](23.04.10/Lecture%2013.%20Exception.pdf)
+
+[code](23.04.10/code/main.cpp)
+
+## 23.04.17 - 23.04.24
+[Cast, CRTP](23.04.17/Lecture%2014.%20%20Casts%2C%20CRTP%20.pdf)
+
+[code-1](23.04.17/code/main.cpp)
+[code-2](23.04.24/code/main.cpp)
+
 # Лабораторные работы
 [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
 

@@ -74,6 +74,23 @@
 
 [code](23.04.24/code/main.cpp)
 
+## 23.05.15
+[Template-2](23.05.15/Lecture%2016.%20%20Template%20-%202.pdf)
+
+[code](23.05.15/code/main.cpp)
+
+## 23.05.22
+[Variadic template](23.05.22/Lecture%2017.%20%20Variadic%20template.pdf)
+
+[code](23.05.22/code/main.cpp)
+
+## 23.05.29
+[Move semantics](23.05.29/Lecture%2018.%20%20Move%20semantics.pdf)
+
+[code](23.05.29/code/main.cpp)
+
+
+
 # Лабораторные работы
 [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
 

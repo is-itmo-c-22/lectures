@@ -112,3 +112,5 @@
 10. [Weather Forecast](https://classroom.github.com/a/hrWBnV8i)
 11. [Xrange + Zip](https://classroom.github.com/a/Ozlv3CY2)
 12. [SQL](https://classroom.github.com/a/G8hmgm9c)
+
+[Дифзачет](https://github.com/is-itmo-c-22/lectures/blob/f5281bb82eac3234df00c12f7c7dfcdea2dd9677/Exam%20II.md)
